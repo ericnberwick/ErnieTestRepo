@@ -4,12 +4,13 @@
         <Navbar></Navbar>
 
         <div class="mx-8 my-4">
-            <header class="flex justify-center ">
-                <h2>About Us</h2>
-            </header>
+            
 
             <div class="flex justify-center">
                 <div class=" w-1/2">
+                    <header class="flex justify-content ">
+                        <h2>About Us</h2>
+                    </header>
                     <hr>
                     <img class ="mr-4 float-left" width="201" src="/img/epchanDotCom.bak.png">
                     <p class="text-lg"> 

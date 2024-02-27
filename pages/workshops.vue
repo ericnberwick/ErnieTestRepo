@@ -9,17 +9,14 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Home</h2>
+                        <h2>Workshops</h2>
                 
                     </header>
                     <hr>
                     
                     <p class="text-lg"> 
-                        Dr. Ernest P. Chan, is an expert in the application of statistical models and software for trading currencies,
-                         futures, and stocks. He manages a hedge fund and SMAs at <a href="https://qtscm.com/" class="underline">QTS Capital Management, LLC</a>. and a financial machine 
-                         learning SaaS <a class="underline" href="https://predictnow.ai/">Predictnow.ai</a>. Dr. Chan has built and traded numerous quantitative models for investment banks 
-                         and hedge funds in the past. He has served individual and institutional clients in Australia, Canada, China,
-                          France, India, Israel, Italy, Russia, Singapore, South Africa, the United Kingdom, and the United States since 2006.
+                        Dr. Chan is the founder of QTS Capital Management, LLC., a commodity pool operator and commodity trading advisor.
+                         QTS manages a commodity pool (hedge fund) as well as individual brokerage accounts. Please visit www.qtscm.com for an overview of its service.
                     </p>
                     
                     
