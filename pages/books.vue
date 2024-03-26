@@ -14,7 +14,7 @@
                     </header>
                     <hr>
                     <div class="w-full flex justify-center">
-                        <img class ="mr-4"  src="/img/book1.png">
+                        <NuxtImg class ="mr-4"  src="/img/book1.png"></NuxtImg>
                     </div>
                     <p class="text-lg"> 
                         Dr. Chan’s first book <a class="underline" href="https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064?keywords=quantitative+trading&qid=1655547997&s=books&sprefix=quantitative,stripbooks,73&sr=1-5&linkCode=sl1&tag=quantitativet-20&linkId=c583123011943a28802e23d170165bce&language=en_US&ref_=as_li_ss_tl">Quantitative Trading</a>
@@ -51,7 +51,7 @@
                     </p>
                     <hr>
                     <div class="w-full flex justify-content">
-                        <img src="/img/book2.jpg">
+                        <NuxtImg src="/img/book2.jpg"></NuxtImg>
 
                     </div>
                     <p class="text-lg">
@@ -77,7 +77,7 @@
                     </p>
 
                     <div class="w-full flex justify-content">
-                        <img src="/img/book3.jpg">
+                        <NuxtImg src="/img/book3.jpg"></NuxtImg>
 
                     </div>
                     <p class="text-lg">

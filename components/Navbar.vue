@@ -8,7 +8,7 @@
                 <h3 class="text-slate-400 pr-4 my-2 text-2xl truncate"><i>Quantitative Trading</i></h3>
             </div>
             <div class="w-auto">
-                <img src="/img/banner.jpg">
+                <NuxtImg src="/img/banner.jpg"></NuxtImg>
             </div>
             <nav class="p-5 bg-white shadow 2xl:flex 2xl:items-center 2xl:justify-center w-auto">
                 <div class="flex justify-between items-center ">

@@ -12,7 +12,7 @@
                         <h2>About Us</h2>
                     </header>
                     <hr>
-                    <img class ="mr-4 float-left" width="201" src="/img/epchanDotCom.bak.png">
+                    <NuxtImg class ="mr-4 float-left" width="201" src="/img/epchanDotCom.bak.png"></NuxtImg>
                     <p class="text-lg"> 
                         Dr. Ernest P. Chan,  <b>founder</b>, <a class="underline" href="https://predictnow.ai/">PredictNow.ai Inc</a>. Ernie’s career since 1994 has been focusing on the development
                         of statistical models and advanced computer algorithms to find patterns and trends in large quantities of data.
@@ -41,7 +41,7 @@
                     <p class="text-lg"> Ernie holds a Bachelor of Science degree from University of Toronto in 1988, a Master of Science (1991) and a Doctor of Philosophy (1994) degree in theoretical
                         physics from Cornell University.</p>
                     <hr>
-                    <img class ="mr-4 float-left w-50 " width="201" src="/img/Roger-photo.bak.jpg">
+                    <NuxtImg class ="mr-4 float-left w-50 " width="201" src="/img/Roger-photo.bak.jpg"></NuxtImg>
                     <p class="text-lg"> Dr. Roger Hunter, scientific adviser,  <a class="underline" href="https://predictnow.ai/">PredictNow.ai Inc</a>. Roger is an expert in designing high-performance automated execution system as well as machine learning
                          software. Roger was the founder and former manager of a highly profitable equities fund, and was the founder and former CEO of a scientific software firm that 
                          was acquired by Thomson Reuters. His firm’s software is currently in use at the U.S. Federal Reserve. Roger was formerly professor of mathematics a
