@@ -17,10 +17,12 @@
                         <NuxtLink to="/">E.P. Chan & Associates</NuxtLink>
                     </span> -->
 
-                    <span class="text-3xl cursor-pointer 2xl:hidden block mx-2 mb-2 ">
-
-                        <Icon class="hover:text-orange-500 duration-500 " name="mingcute:align-justify-fill" @click="toggleNavbarUI" v-show="!showNavbarUI"></Icon>
-                        <Icon class="hover:text-orange-500 duration-500 " name="maki:cross" @click="toggleNavbarUI" v-show="showNavbarUI"></Icon>
+                    <span class="text-3xl cursor-pointer 2xl:hidden block mx-2 mb-2 w-full ">
+                        <div class="w-full flex justify-end">
+                            <Icon class="hover:text-orange-500 duration-500 " name="mingcute:align-justify-fill" @click="toggleNavbarUI" v-show="!showNavbarUI"></Icon>
+                            <Icon class="hover:text-orange-500 duration-500 " name="maki:cross" @click="toggleNavbarUI" v-show="showNavbarUI"></Icon>
+                        </div>
+                        
                         <div class="bg-orange-500 text-white w-full"  name="mingcute:align-justify-fill"
                             v-if="showNavbarUI">
                             <ul>
