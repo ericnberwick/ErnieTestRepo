@@ -9,12 +9,12 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Home</h2>
+                        <h1>Home</h1>
                 
                     </header>
                     <hr>
                     
-                    <p class="text-lg"> 
+                    <p class="text-lg font-arial"> 
                         Dr. Ernest P. Chan, is an expert in the application of statistical models and software for trading currencies,
                          futures, and stocks. He manages a hedge fund and SMAs at <a href="https://qtscm.com/" class="underline">QTS Capital Management, LLC</a>. and a financial machine 
                          learning SaaS <a class="underline" href="https://predictnow.ai/">Predictnow.ai</a>. Dr. Chan has built and traded numerous quantitative models for investment banks 
@@ -42,12 +42,29 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
+
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: 400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
 }
 
 </style>

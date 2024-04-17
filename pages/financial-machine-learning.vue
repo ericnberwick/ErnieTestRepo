@@ -9,7 +9,7 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Financial Machine Learning</h2>
+                        <h1>Financial Machine Learning</h1>
                 
                     </header>
                     <hr>
@@ -100,15 +100,15 @@
                     <ul class="list-disc list-inside">
                         <li>None of above applications are “black-box” trading strategies: they improve instead of supplant existing trading strategies.</li>
                         <li >
-                            Upload your past trading history plus some external data to PredictNow.ai, click a button, and find out the Probability of Profit for your next trade! 
+                            Upload your past trading history plus some external data to <a class="underline" href="https://web.archive.org/web/20200812223937/https://predictnow.ai/">PredictNow.ai</a>, click a button, and find out the <b>Probability of Profit</b> for your next trade! 
                         </li>
                         <li>
                             Dr. Chan has conducted machine learning research since 1994 starting at IBM T.J. Watson’s Research Center, and financial machine learning research since
-                             1997 starting at Morgan Stanley’s Data Mining and AI group. Dr. Chan also manages QTS Capital Management, LLC. a hedge fund that uses financial machine
+                             1997 starting at Morgan Stanley’s Data Mining and AI group. Dr. Chan also manages <a class="underline" href="https://qtscm.com/">QTS Capital Management, LLC</a>. a hedge fund that uses financial machine
                               learning technology to great effect.
                         </li>
                         <li>
-                            His team of highly skilled researchers and financial data scientists not only produces extraordinary returns to investors at his hedge fund, but also helps
+                            His team of highly skilled <a class="underline" href="https://predictnow.ai/team/">researchers</a> and financial data scientists not only produces extraordinary returns to investors at his hedge fund, but also helps
                              external clients achieve the same and without conflicts of interest due to the nature of meta-labeling.
                         </li>
                     </ul>
@@ -118,58 +118,58 @@
                     </h2>
 
                     <p class="text-lg">
-                        <a class="underline" href="">“What is the probability of profit of your next trade? (Introducing PredictNow.ai)”</a> explains in details how you can use our SaaS to improve your existing investment or trading strategy.
+                        <a class="underline" href="https://epchan.blogspot.com/2020/07/what-is-probability-of-profit-of-your.html">“What is the probability of profit of your next trade? (Introducing PredictNow.ai)”</a> explains in details how you can use our SaaS to improve your existing investment or trading strategy.
                     </p>
                     <p>
-                        <a class="underline" href="">“The best way to select features?“</a>, preprint by Xin Man and Ernest Chan comparing MDA, LIME, and SHAP feature selection methods in machine learning.
+                        <a class="underline" href="https://arxiv.org/abs/2005.12483">“The best way to select features?“</a>, preprint by Xin Man and Ernest Chan comparing MDA, LIME, and SHAP feature selection methods in machine learning.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“US nonfarm employment prediction using RIWI Corp. alternative data“</a>, working paper by Radu Ciobanu and Ernest Chan on using alternative data to predict NFP numbers.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/NFP-prediction-using-RIWI-data.pdf">“US nonfarm employment prediction using RIWI Corp. alternative data“</a>, working paper by Radu Ciobanu and Ernest Chan on using alternative data to predict NFP numbers.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Financial Data Science and Machine Learning”</a> webinar at futures.io, October 2019.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Financial-machine-learning.pdf">“Financial Data Science and Machine Learning”</a> webinar at futures.io, October 2019.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“What we learned from Kaggle Two-Sigma News Sentiment competition?“</a>, UNICOM conference keynote speech, London, June 2019.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/What-we-learned-from-Kaggle-Two-Sigma-News-Sentiment-competition.pdf">“What we learned from Kaggle Two-Sigma News Sentiment competition?“</a>, UNICOM conference keynote speech, London, June 2019.
                     </p>
                     <p class="text-lg"> 
-                        <a class="underline" href="">“Is News Sentiment Still Adding Alpha?“</a>, blog post on epchan.blogspot.com on our News Sentiment research.
+                        <a class="underline" href="https://epchan.blogspot.com/2019/04/is-news-sentiment-still-adding-alpha.html">“Is News Sentiment Still Adding Alpha?“</a>, blog post on epchan.blogspot.com on our News Sentiment research.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Why features importance should only be computed in validation set“</a>, an open source kernel in Kaggle Two-Sigma competition.
+                        <a class="underline" href="https://www.kaggle.com/code/chanep/assetcode-with-mda-using-random-data/notebook">“Why features importance should only be computed in validation set“</a>, an open source kernel in Kaggle Two-Sigma competition.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“What to do before machine learning?“</a>, Quantopian webinar, October 2018. (Video.)
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/What-to-do-before-ML-webinar.pdf">“What to do before machine learning?“</a>, Quantopian webinar, October 2018. (Video.)
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“FX Order Flow as a Predictor”</a> at Friedberg Mercantile Group event in Toronto, May 2018.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/FX-Order-Flow-as-a-Predictor.pdf">“FX Order Flow as a Predictor”</a> at Friedberg Mercantile Group event in Toronto, May 2018.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Optimizing Trading Strategies Without Overfitting”</a>, keynote speech at QuantCon, New York, April 2018.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Optimizing-Trading-Strategies-Without-Overfitting.pdf">“Optimizing Trading Strategies Without Overfitting”</a>, keynote speech at QuantCon, New York, April 2018.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Applying machine learning techniques to everyday strategies”</a> at Grupo L&S conference, Brazil, November 2017.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Applying-machine-learning-techniques-to-everyday-strategies.pdf">“Applying machine learning techniques to everyday strategies”</a> at Grupo L&S conference, Brazil, November 2017.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Enhancing Statistical Significance of Backtests”</a> at QuantCon, New York, April 2017.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Enhancing-Statistical-Significance-of-Backtests.pdf">“Enhancing Statistical Significance of Backtests”</a> at QuantCon, New York, April 2017.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“The Peculiarity of Volatility”</a> at QuantCon, New York, April 2016.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Peculiarities-of-volatilities-2.pdf">“The Peculiarity of Volatility”</a> at QuantCon, New York, April 2016.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Optimal Order Types”</a> at Market Microstructure, Liquidity and Automated Trading conference, London, July 2015.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Optimal-Order-Types.pdf">“Optimal Order Types”</a> at Market Microstructure, Liquidity and Automated Trading conference, London, July 2015.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Beware of Low Frequency Data”</a> at QuantCon, New York, March 2015.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Beware-of-Low-Frequency-Data-Article.pdf">“Beware of Low Frequency Data”</a> at QuantCon, New York, March 2015.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Factor Models in Practice”</a> at Society of Technical Analysts, London, Oct 2014.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Factor-Models.pdf">“Factor Models in Practice”</a> at Society of Technical Analysts, London, Oct 2014.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“Backtesting and Its Pitfalls”</a>. Market Technician Association meeting, London, Apr 2013.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Backtesting-and-its-Pitfalls.pdf">“Backtesting and Its Pitfalls”</a>. Market Technician Association meeting, London, Apr 2013.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="">“How to Succeed in the Quant Trading Business”</a>. York University Schulich School of Business Professional Seminar Series. January, 2013.
+                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/How-to-Succeed-in-Quant-Trading.pdf">“How to Succeed in the Quant Trading Business”</a>. York University Schulich School of Business Professional Seminar Series. January, 2013.
                     </p>
                     <p class="text-lg">
                         <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Discovering-Risk-Indicators-in-the-FX-Markets.pdf">“Discovering Risk Indicators in the FX Markets”</a> at Quant Invest Canada conference in Toronto, Canada, October 2012.
@@ -194,12 +194,24 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight:400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
 }
 
 </style>

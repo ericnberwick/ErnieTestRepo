@@ -9,7 +9,7 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Workshops</h2>
+                        <h1>Workshops</h1>
                 
                     </header>
                     <hr>
@@ -31,7 +31,7 @@
                             use of <b>Python</b> packages such as Pandas, Scikit-learn, LightGBM, and execution platforms
                             like QuantConnect. It will be co-taught by Dr. Ernest Chan and Dr. Roger Hunter,
                             principals of QTS Capital Management, LLC. The course was taught in 3 parts, each
-                            part will last 4 hours. <b>Course</b> outline is available for <u>download</u>. Inquiries at <u><a href="mailto:ernest@epchan.com">ernest@epchan.com</a></u>
+                            part will last 4 hours. <b>Course</b> outline is available for <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Lifecycle_Outline.pdf">download</a>. Inquiries at <u><a href="mailto:ernest@epchan.com">ernest@epchan.com</a></u>
                     </p>
 
                     <ul class="text-lg  list-disc list-inside"> 
@@ -44,9 +44,9 @@
                         <p>
                             Part 1. <i>Financial data science and features engineering</i> 
                         </p>
-                        <button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/test_28oaIp5ENgnffKwfYZ"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
-                        </button>
+                        </button></a>
 
                     </div>
 
@@ -54,9 +54,9 @@
                         <p>
                             Part 2. <i>Financial machine learning </i>
                         </p>
-                        <button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/test_eVa3fX9V34Ex0PC28a"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
-                        </button>
+                        </button></a>
 
                     </div>
 
@@ -64,9 +64,9 @@
                         <p>
                             Part 3. <i>Backtesting ML strategies and automated execution</i>
                         </p>
-                        <button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/test_00g3fX7MV7QJ41O28b"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
-                        </button>
+                        </button></a>
 
                     </div>
 
@@ -74,9 +74,9 @@
                         <p>
                             <b>Complete course</b> Parts 1 – 3
                         </p>
-                        <button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/test_3cs3fXebjc6Z8i4bIM"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
-                        </button>
+                        </button></a>
 
                     </div>
 
@@ -153,12 +153,24 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: 400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
 }
 
 </style>

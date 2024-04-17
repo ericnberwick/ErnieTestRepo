@@ -9,7 +9,7 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Books</h2>
+                        <h1>Books</h1>
                 
                     </header>
                     <hr>
@@ -73,7 +73,7 @@
                             Chief Investment Officer, University of Toronto Asset Management</b>.
                     </p>
                     <p class="text-lg">
-                        Readers of Algorithmic Trading: Winning Strategies and Their Rationale can find the password to the <a class="underline" href="https://www.epchan.com/book2"></a>Matlab and Python codes for this book on page 199.
+                        Readers of Algorithmic Trading: Winning Strategies and Their Rationale can find the password to the <a class="underline" href="https://www.epchan.com/book2">Matlab and Python codes</a> for this book on page 199.
                     </p>
 
                     <div class="w-full flex justify-content">
@@ -89,7 +89,7 @@
                     <p class="text-lg">
                         This book can be treated as a continuation of my first two books, with coverage on topics that I have not discussed
                         before, but it can also be read independently. Software codes for all the described strategies can be found on 
-                        <a class="underline" href="https://epchan.com/book3"></a>epchan.com/book3. The userid and password can be found in Box 1.1 of the book.
+                        <a class="underline" href="https://epchan.com/book3">epchan.com/book3</a>. The userid and password can be found in Box 1.1 of the book.
                     </p>
 
                     <p class="text-lg">
@@ -122,12 +122,24 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: 400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
 }
 
 </style>

@@ -9,7 +9,7 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>Investment Management</h2>
+                        <h1>Investment Management</h1>
                 
                     </header>
                     <hr>
@@ -39,12 +39,24 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: 400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
 }
 
 </style>

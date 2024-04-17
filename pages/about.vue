@@ -9,7 +9,7 @@
             <div class="flex justify-center">
                 <div class=" w-1/2">
                     <header class="flex justify-content ">
-                        <h2>About Us</h2>
+                        <h1>About Us</h1>
                     </header>
                     <hr>
                     <NuxtImg class ="mr-4 float-left" width="201" src="/img/epchanDotCom.bak.png"></NuxtImg>
@@ -64,12 +64,24 @@
 </script>
 
 <style scoped>
+h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: bold;
+}
 h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
+    color: #445566;
+    font-weight: 400;
 }
 p{
+    font-family: 'Arial', sans-serif;
     margin: 20px 0;
+    font-size: 15px;
+    color: #444444;
 }
 
 </style>
