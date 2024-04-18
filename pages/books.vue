@@ -51,7 +51,7 @@
                     </p>
                     <hr>
                     <div class="w-full flex justify-content">
-                        <NuxtImg height="250" src="/img/book2.jpg"></NuxtImg>
+                        <NuxtImg height="" src="/img/book2.jpg"></NuxtImg>
 
                     </div>
                     <p class="text-lg">
