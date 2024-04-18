@@ -7,7 +7,7 @@
             
             
             <div class="flex justify-center">
-                <div class=" w-1/2">
+                <div class=" w-7/12">
                     <header class="flex justify-content ">
                         <h1>Investment Management</h1>
                 
