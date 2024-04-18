@@ -2,7 +2,7 @@
 
     <div class="bg-white w-full flex justify-center">
 
-        <div class="w-1/2 border-black border-2 rounded-md mt-4">
+        <div class="w-7/12 border-black border-2 rounded-md mt-4">
             <div class="w-full flex justify-between bg-white">
                 <h2 class="text-black pl-4 my-2 font-bold text-4xl">E.P. Chan & Associates</h2>
                 <h3 class="text-slate-400 pr-4 my-2 text-2xl truncate"><i>Quantitative Trading</i></h3>
@@ -24,45 +24,47 @@
                             <Icon class="hover:text-orange-500 duration-500 " name="maki:cross" @click="toggleNavbarUI" v-show="showNavbarUI"></Icon>
                         </div>
                         
-                        <div class="bg-orange-500 text-white w-full"  name="mingcute:align-justify-fill"
+                        <div style="background-color: #EE8222;" class="text-white w-full"  name="mingcute:align-justify-fill"
                             v-if="showNavbarUI">
-                            <ul>
-                                <li class="px-1 truncate hover:bg-orange-400 duration-500 cursor-pointer">
+                            <ul class="flex flex-col items-center">
+                                
+                                <li class=" truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to="/"
-                                        class="text-sm font-bold ">Home
+                                        class="text-base font-semibold">Home
                                     </NuxtLink>
                                 </li>
-                                <li class="px-1 truncate hover:bg-orange-400 duration-500 cursor-pointer">
+                            
+                                <li class=" truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to="/financial-machine-learning"
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
+                                        class="text-base font-semibold  duration-500 cursor-pointer ">
                                         Financial
                                         Machine Learning</NuxtLink>
                                 </li>
-                                <li class="px-1 hover:bg-orange-400 duration-500 cursor-pointer">
+                                <li class=" hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to='/workshops'
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
+                                        class="text-base font-semibold  duration-500 cursor-pointer  ">
                                         Workshops</NuxtLink>
                                 </li>
-                                <li class="px-1 hover:bg-orange-400 duration-500 cursor-pointer">
+                                <li class=" hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to='/books'
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
+                                        class="text-base font-semibold  duration-500 cursor-pointer ">
                                         Books</NuxtLink>
                                 </li>
-                                <li class="px-1 truncate hover:bg-orange-400 duration-500 cursor-pointer">
+                                <li class=" truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to="/investment-management"
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
+                                        class="text-base font-semibold  duration-500 cursor-pointer ">
                                         Investment Management
                                     </NuxtLink>
                                 </li>
-                                <li class="px-1 hover:bg-orange-400 duration-500 cursor-pointer">
+                                <li class=" hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to="/about"
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
+                                        class="text-base font-semibold  duration-500 cursor-pointer ">
                                         About Us</NuxtLink>
                                 </li>
-                                <li class="px-1 hover:bg-orange-400 duration-500 cursor-pointer">
+                                <li class=" hover:bg-orange-400 duration-500 cursor-pointer w-full text-center pb-3">
                                     <NuxtLink to="/email"
-                                        class="text-sm  duration-500 cursor-pointer font-bold">
-                                        Email</NuxtLink>
+                                        class="text-base font-semibold  duration-500 cursor-pointer ">
+                                        E-mail</NuxtLink>
                                 </li>
                             </ul>
                         </div>

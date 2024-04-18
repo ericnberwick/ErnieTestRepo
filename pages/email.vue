@@ -3,12 +3,12 @@
         <Navbar></Navbar>
         <div class="flex justify-center">
             <div class="w-1/2 ">
-                <header class="flex justify-center ">
-                    <h1>Email</h1>
+                <header class="flex justify-content ">
+                    <h1>E-mail</h1>
                 </header>
-                <hr>
+                <hr >
 
-                <div class="flex justify-center ">
+                <div class="flex justify-content ">
                     
                     <a>ernest@epchan.com</a>
                 </div>
@@ -23,6 +23,9 @@
 </script>
 
 <style lang="scss" scoped>
+.line{
+    color: #444444;
+}
 h1{
     margin-top: 10px;
     margin-bottom: 7px;
