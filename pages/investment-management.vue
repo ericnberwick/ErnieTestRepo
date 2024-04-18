@@ -1,16 +1,15 @@
 <template>
     <!-- border-sky-400 border-2  -->
     <div>
-        <Navbar></Navbar>
+        <Navbar page="invest"></Navbar>
 
         <div class="mx-8 mt-2">
             
             
             <div class="flex justify-center">
-                <div class=" w-1/2">
+                <div class=" w-7/12">
                     <header class="flex justify-content ">
                         <h1>Investment Management</h1>
-                
                     </header>
                     <hr>
                     
@@ -19,23 +18,18 @@
                          QTS manages a commodity pool (hedge fund) as well as individual brokerage accounts. Please visit <a class="underline" href="https://qtscm.com/">www.qtscm.com</a> for an overview of its service.
                     </p>
                     
-                    
-
                     <div class="mt-20">
                         <hr class="border-black border-2">
-                    
                             <p><Icon name="ic:round-copyright"> </Icon> 2022 . E.P. Chan & Associates</p>
-                        
                     </div>    
-                </div>
-                
-            </div>
-            
+                </div>  
+            </div>        
         </div>
     </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style scoped>
@@ -57,6 +51,15 @@ p{
     margin: 20px 0;
     font-size: 15px;
     color: #444444;
+}
+a {
+    color: #444444; /* Initial Color */
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out; /* Smooth transition for color and font-size */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    
 }
 
 </style>

@@ -1,13 +1,13 @@
 <template>
     <!-- border-sky-400 border-2  -->
     <div>
-        <Navbar></Navbar>
+        <Navbar page="workshop"></Navbar>
 
         <div class="mx-8 mt-2">
             
             
             <div class="flex justify-center">
-                <div class=" w-1/2">
+                <div class=" w-7/12">
                     <header class="flex justify-content ">
                         <h1>Workshops</h1>
                 
@@ -171,6 +171,15 @@ p{
     margin: 20px 0;
     font-size: 15px;
     color: #444444;
+}
+a {
+    color: #444444; /* Initial Color */
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out; /* Smooth transition for color and font-size */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    
 }
 
 </style>

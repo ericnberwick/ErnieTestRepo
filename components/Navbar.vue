@@ -1,14 +1,15 @@
 <template>
+    
+    <div class="bg-white w-full flex justify-center ">
 
-    <div class="bg-white w-full flex justify-center">
-
-        <div class="w-7/12 border-black border-2 rounded-md mt-4">
-            <div class="w-full flex justify-between bg-white">
-                <h2 class="text-black pl-4 my-2 font-bold text-4xl">E.P. Chan & Associates</h2>
-                <h3 class="text-slate-400 pr-4 my-2 text-2xl truncate"><i>Quantitative Trading</i></h3>
+        <div class="w-7/12 border-black border-2 rounded-xl mt-4 px-3">
+            <div class="w-full flex items-center justify-between bg-white px-6 py-3">
+                <NuxtLink to="/"><h2 class="font-bold text-5xl text-grey-700">E.P. Chan & Associates</h2></NuxtLink>
+                <h3 class="text-2xl text-gray-600 italics pr-4">Quantitative Trading</h3>
+                
             </div>
             <div class="w-full flex justify-center">
-                
+
                 <NuxtImg src="/img/banner.jpg"></NuxtImg>
             </div>
             <nav class="p-5 bg-white shadow 2xl:flex 2xl:items-center 2xl:justify-center w-auto">
@@ -20,44 +21,47 @@
 
                     <span class="text-3xl cursor-pointer 2xl:hidden block mx-2 mb-2 w-full ">
                         <div class="w-full flex justify-end">
-                            <Icon class="hover:text-orange-500 duration-500 " name="mingcute:align-justify-fill" @click="toggleNavbarUI" v-show="!showNavbarUI"></Icon>
-                            <Icon class="hover:text-orange-500 duration-500 " name="maki:cross" @click="toggleNavbarUI" v-show="showNavbarUI"></Icon>
+                            <Icon class="hover:text-orange-500 duration-500 " name="mingcute:align-justify-fill"
+                                @click="toggleNavbarUI" v-show="!showNavbarUI"></Icon>
+                            <Icon class="hover:text-orange-500 duration-500 " name="maki:cross" @click="toggleNavbarUI"
+                                v-show="showNavbarUI"></Icon>
                         </div>
-                        
-                        <div style="background-color: #EE8222;" class="text-white w-full"  name="mingcute:align-justify-fill"
-                            v-if="showNavbarUI">
+
+                        <div style="background-color: #EE8222;" class="text-white w-full"
+                            name="mingcute:align-justify-fill" v-if="showNavbarUI">
                             <div class="flex flex-col items-center">
-                                
+
                                 <NuxtLink to="/"
-                                    class=" truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold">Home
+                                    class=" truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold">
+                                    Home
                                 </NuxtLink>
-                            
+
                                 <NuxtLink to="/financial-machine-learning"
                                     class="truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer ">
                                     Financial
                                     Machine Learning</NuxtLink>
-                            
+
                                 <NuxtLink to='/workshops'
                                     class="hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer  ">
                                     Workshops</NuxtLink>
-                            
+
                                 <NuxtLink to='/books'
                                     class="hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer ">
                                     Books</NuxtLink>
-                            
+
                                 <NuxtLink to="/investment-management"
                                     class="truncate hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer ">
                                     Investment Management
                                 </NuxtLink>
-                            
+
                                 <NuxtLink to="/about"
                                     class="hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer ">
                                     About Us</NuxtLink>
-                            
+
                                 <NuxtLink to="/email"
                                     class="hover:bg-orange-400 duration-500 cursor-pointer w-full text-center p-3 text-base font-semibold  duration-500 cursor-pointer ">
                                     E-mail</NuxtLink>
-                                
+
                             </div>
                         </div>
                     </span>
@@ -66,38 +70,40 @@
 
                 <ul class="2xl:flex 2xl:items-center z-[-1] 2xl:z-auto 2xl:static absolute bg-white w-full left-0 2xl:w-auto 2xl:py-0 py-4 2xl:pl-0 pl-7
                                 2xl:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ">
-                    <li class="mx-1 my-6 2xl:my-0">
-                        <NuxtLink to="/" class="text-sm font-bold hover:text-orange-500 duration-500 cursor-pointer">
+                    <li class="mx-1 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'home' }">
+                        <NuxtLink to="/" class="text-base font-bold hover:text-orange-500 duration-500 cursor-pointer">
                             Home</NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0 truncate">
+                    <li class="mx-4 my-6 2xl:my-0 truncate" :class="{ 'text-orange-500': props.page === 'financial' }">
                         <NuxtLink to="/financial-machine-learning"
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">Financial
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Financial
                             Machine Learning</NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0">
+                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'workshop' }">
                         <NuxtLink to='/workshops'
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">Workshops
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Workshops
                         </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0">
+                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'books' }">
                         <NuxtLink to='/books'
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">Books</NuxtLink>
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Books
+                        </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0 truncate">
+                    <li class="mx-4 my-6 2xl:my-0 truncate" :class="{ 'text-orange-500': props.page === 'invest' }">
                         <NuxtLink to="/investment-management"
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">Investment
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Investment
                             Management
                         </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0">
+                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'about' }">
                         <NuxtLink to="/about"
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">
                             About Us</NuxtLink>
                     </li>
-                    <li class="mx-1 my-6 2xl:my-0">
+                    <li class="mx-1 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'email' }">
                         <NuxtLink to="/email"
-                            class="text-sm hover:text-orange-500 duration-500 cursor-pointer font-bold">Email</NuxtLink>
+                            class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">E-mail
+                        </NuxtLink>
                     </li>
                 </ul>
 
@@ -107,19 +113,40 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 
-var showNavbarUI = ref(false);
 
-function toggleNavbarUI() {
+
+
+const props = defineProps({
+  page: {
+    type: String,
+    required: true
+  }
+});
+
+watch(() => props.page, (newVal, oldVal) => {
+  console.log(newVal);
+}, { immediate: true });
+
+let showNavbarUI = ref(false);
+
+const toggleNavbarUI = () => {
   showNavbarUI.value = !showNavbarUI.value;
   console.log("show nav bar ", showNavbarUI)
-  
 }
 
 
 </script>
 
 <style lang="scss" scoped>
+li {
+    transition: transform 0.3s ease-in-out; /* Transition effect to smoothly change properties */
+}
+
+li:hover {
+    transform: scale(1.03); /* Enlarge the item to 105% of its original size on hover */
+}
+
 
 </style>

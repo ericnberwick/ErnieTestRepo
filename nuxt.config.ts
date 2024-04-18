@@ -7,5 +7,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
     
   ],
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ]
   
 })
