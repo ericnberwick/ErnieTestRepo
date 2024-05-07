@@ -44,17 +44,16 @@
                         <p>
                             Part 1. <i>Financial data science and features engineering</i> 
                         </p>
-                        <a href="https://buy.stripe.com/test_28oaIp5ENgnffKwfYZ"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/aEUbKI0u37PQasM144"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
                         </button></a>
-
                     </div>
 
                     <div>
                         <p>
                             Part 2. <i>Financial machine learning </i>
                         </p>
-                        <a href="https://buy.stripe.com/test_eVa3fX9V34Ex0PC28a"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/7sIaGE3Gf9XY1Wg3cd"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
                         </button></a>
 
@@ -64,7 +63,7 @@
                         <p>
                             Part 3. <i>Backtesting ML strategies and automated execution</i>
                         </p>
-                        <a href="https://buy.stripe.com/test_00g3fX7MV7QJ41O28b"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/dR6cOM2Cb5HIgRa7su"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
                         </button></a>
 
@@ -74,7 +73,7 @@
                         <p>
                             <b>Complete course</b> Parts 1 – 3
                         </p>
-                        <a href="https://buy.stripe.com/test_3cs3fXebjc6Z8i4bIM"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
+                        <a href="https://buy.stripe.com/fZe4ig3Gf1rsfN64gj"><button class=" rounded-xl bg-yellow-400 p-2 hover:bg-yellow-500  transition-all">
                             <b>Buy Now</b>
                         </button></a>
 

@@ -141,7 +141,7 @@ const toggleNavbarUI = () => {
 
 <style lang="scss" scoped>
 li {
-    transition: transform 0.3s ease-in-out; /* Transition effect to smoothly change properties */
+    transition: transform 0.2s ease-in-out; /* Transition effect to smoothly change properties */
 }
 
 li:hover {
