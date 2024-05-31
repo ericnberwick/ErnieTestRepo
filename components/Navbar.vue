@@ -2,7 +2,7 @@
     
     <div class="bg-white w-full flex justify-center ">
 
-        <div class="w-7/12 border-black border-2 rounded-xl mt-4 px-3">
+        <div class="w-11/12 border-black border-2 rounded-xl mt-4 px-3">
             <div class="w-full flex items-center justify-between bg-white px-6 py-3">
                 <NuxtLink to="/"><h2 class="font-bold text-5xl text-grey-700">E.P. Chan & Associates</h2></NuxtLink>
                 <h3 class="text-2xl text-gray-600 italics pr-4">Quantitative Trading</h3>
@@ -12,14 +12,10 @@
 
                 <NuxtImg src="/img/banner.jpg"></NuxtImg>
             </div>
-            <nav class="p-5 bg-white shadow 2xl:flex 2xl:items-center 2xl:justify-center w-auto">
+            <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-center w-auto">
                 <div class="flex justify-between items-center ">
-                    <!-- <span class="font-bold text-2xl font-[Arial] cursor-pointer hover:text-orange-500 duration-500 truncate">
-                        
-                        <NuxtLink to="/">E.P. Chan & Associates</NuxtLink>
-                    </span> -->
 
-                    <span class="text-3xl cursor-pointer 2xl:hidden block mx-2 mb-2 w-full ">
+                    <span class="text-3xl cursor-pointer md:hidden block mx-2 mb-2 w-full ">
                         <div class="w-full flex justify-end">
                             <Icon class="hover:text-orange-500 duration-500 " name="mingcute:align-justify-fill"
                                 @click="toggleNavbarUI" v-show="!showNavbarUI"></Icon>
@@ -68,39 +64,39 @@
 
                 </div>
 
-                <ul class="2xl:flex 2xl:items-center z-[-1] 2xl:z-auto 2xl:static absolute bg-white w-full left-0 2xl:w-auto 2xl:py-0 py-4 2xl:pl-0 pl-7
-                                2xl:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ">
-                    <li class="mx-1 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'home' }">
+                <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7
+                                md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ">
+                    <li class="mx-1 my-6 md:my-0" :class="{ 'text-orange-500': props.page === 'home' }">
                         <NuxtLink to="/" class="text-base font-bold hover:text-orange-500 duration-500 cursor-pointer">
                             Home</NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0 truncate" :class="{ 'text-orange-500': props.page === 'financial' }">
+                    <li class="mx-2 my-6 md:my-0 truncate" :class="{ 'text-orange-500': props.page === 'financial' }">
                         <NuxtLink to="/financial-machine-learning"
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Financial
                             Machine Learning</NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'workshop' }">
+                    <li class="mx-2 my-6 md:my-0" :class="{ 'text-orange-500': props.page === 'workshop' }">
                         <NuxtLink to='/workshops'
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Workshops
                         </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'books' }">
+                    <li class="mx-2 my-6 md:my-0" :class="{ 'text-orange-500': props.page === 'books' }">
                         <NuxtLink to='/books'
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Books
                         </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0 truncate" :class="{ 'text-orange-500': props.page === 'invest' }">
+                    <li class="mx-2 my-6 md:my-0 truncate" :class="{ 'text-orange-500': props.page === 'invest' }">
                         <NuxtLink to="/investment-management"
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">Investment
                             Management
                         </NuxtLink>
                     </li>
-                    <li class="mx-4 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'about' }">
+                    <li class="mx-2 my-6 md:my-0" :class="{ 'text-orange-500': props.page === 'about' }">
                         <NuxtLink to="/about"
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">
                             About Us</NuxtLink>
                     </li>
-                    <li class="mx-1 my-6 2xl:my-0" :class="{ 'text-orange-500': props.page === 'email' }">
+                    <li class="mx-1 my-6 md:my-0" :class="{ 'text-orange-500': props.page === 'email' }">
                         <NuxtLink to="/email"
                             class="text-base hover:text-orange-500 duration-500 cursor-pointer font-bold">E-mail
                         </NuxtLink>
@@ -126,27 +122,18 @@ const props = defineProps({
 });
 
 watch(() => props.page, (newVal, oldVal) => {
-  console.log(newVal);
 }, { immediate: true });
 
 let showNavbarUI = ref(false);
 
 const toggleNavbarUI = () => {
   showNavbarUI.value = !showNavbarUI.value;
-  console.log("show nav bar ", showNavbarUI)
 }
-
 
 </script>
 
 <style lang="scss" scoped>
-li {
-    transition: transform 0.2s ease-in-out; /* Transition effect to smoothly change properties */
-}
 
-li:hover {
-    transform: scale(1.03); /* Enlarge the item to 105% of its original size on hover */
-}
 
 
 </style>

@@ -2,7 +2,7 @@
     <div>
         <Navbar page="email"></Navbar>
         <div class="flex justify-center">
-            <div class="w-7/12 ">
+            <div class="w-10/12 ">
                 <header class="flex justify-content ">
                     <h1>E-mail</h1>
                 </header>
