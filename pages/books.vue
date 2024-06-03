@@ -13,8 +13,13 @@
                 
                     </header>
                     <hr>
+                    
                     <div class="w-full flex justify-center">
+                        <a class="underline" href="https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064?keywords=quantitative+trading&qid=1655547997&s=books&sprefix=quantitative,stripbooks,73&sr=1-5&linkCode=sl1&tag=quantitativet-20&linkId=c583123011943a28802e23d170165bce&language=en_US&ref_=as_li_ss_tl">
+                        <div>
                         <NuxtImg height="401" class ="mr-4"  src="/img/book1.png"></NuxtImg>
+                    </div>
+                </a>
                     </div>
                     <p class="text-lg"> 
                         Dr. Chan’s first book <a class="underline" href="https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064?keywords=quantitative+trading&qid=1655547997&s=books&sprefix=quantitative,stripbooks,73&sr=1-5&linkCode=sl1&tag=quantitativet-20&linkId=c583123011943a28802e23d170165bce&language=en_US&ref_=as_li_ss_tl">Quantitative Trading</a>
@@ -51,7 +56,11 @@
                     </p>
                     <hr>
                     <div class="w-full flex justify-content">
-                        <NuxtImg height="" src="/img/book2.jpg"></NuxtImg>
+                        <a class="underline" href="https://www.amazon.com/gp/product/1118460146/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118460146&linkCode=as2&tag=quantitativet-20">
+                        <div>
+                            <NuxtImg height="" src="/img/book2.jpg"></NuxtImg>
+                        </div>
+                    </a>
 
                     </div>
                     <p class="text-lg">
@@ -77,8 +86,11 @@
                     </p>
 
                     <div class="w-full flex justify-content">
+                        <a class="underline" href="https://www.amazon.com/gp/product/1119219604/ref%3Das_li_tl?ie=UTF8&tag=quantitativet-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1119219604&linkId=5da06f55eeba446e001985e48562d03a">
+                        <div>
                         <NuxtImg height="300" src="/img/book3.jpg"></NuxtImg>
-
+                    </div>
+                </a>
                     </div>
                     <p class="text-lg">
                         Ernie’s third and latest book <a class="underline" href="https://www.amazon.com/gp/product/1119219604/ref%3Das_li_tl?ie=UTF8&tag=quantitativet-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1119219604&linkId=5da06f55eeba446e001985e48562d03a">Machine Trading: Deploying Computer Algorithms To Conquer the Markets</a> covers a variety of advanced quantitative
