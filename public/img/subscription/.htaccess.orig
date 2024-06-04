@@ -1,0 +1,11 @@
+AuthUserFile /export/home/epchan.com/.htpasswd
+
+AuthName Private
+
+AuthType Basic
+
+
+##Begin Virtadmin section
+require user ernie yaser henninglange sarahalsup stevehalpern ramoncummins alecrobinson marcgris sureshsrinivasan brianroberts stephenmedeiros elliottsheinin davidpreece nathanaelstewart paulteetor hathalalqassab billfalloon alvinhuang josephcunningham richarddixon samirabrol jimjaquith rafaeldenoyo nicolasroth martinkoettner alexanderlee carloaimeri sharperatio anisoueslati pietrodefilippo scottdubler cyprianncube jonzimmerman brianpyatt aidanbluck salmanmohammad
+
+##End Virtadmin section

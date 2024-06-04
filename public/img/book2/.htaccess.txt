@@ -1,0 +1,11 @@
+# Begin password protection #
+AuthName "Password Protected"
+Require valid-user
+AuthUserFile "/home/users/web/b2910/nf.epchancom/public_html/epchan.com/book2/.htpasswd"
+AuthType basic
+# End password protection #
+
+
+
+##Begin Virtadmin section
+##End Virtadmin section
