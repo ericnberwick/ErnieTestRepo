@@ -31,7 +31,7 @@
                             use of <b>Python</b> packages such as Pandas, Scikit-learn, LightGBM, and execution platforms
                             like QuantConnect. It will be co-taught by Dr. Ernest Chan and Dr. Roger Hunter,
                             principals of QTS Capital Management, LLC. The course was taught in 3 parts, each
-                            part will last 4 hours. <b>Course</b> outline is available for <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Lifecycle_Outline.pdf">download</a>. Inquiries at <u><a href="mailto:ernest@epchan.com">ernest@epchan.com</a></u>
+                            part will last 4 hours. <b>Course</b> outline is available for <a class="underline" href="img/links/Lifecycle_Outline.pdf" target="_blank">download</a>. Inquiries at <u><a href="mailto:ernest@epchan.com">ernest@epchan.com</a></u>
                     </p>
 
                     <ul class="text-lg  list-disc list-inside"> 
