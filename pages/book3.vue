@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar page="email"></Navbar>
+    <Navbar ></Navbar>
     <div class="flex justify-center">
       <div class="w-10/12 ">
         <header class="flex justify-content ">
