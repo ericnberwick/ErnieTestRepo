@@ -45,7 +45,7 @@
                     </p>
 
                     <p class="text-lg">
-                        See Dr. Chan’s <a href="https://epchan.com/wp-content/uploads/2022/04/Machine-Learning-in-Finance.pdf" class="underline">Risk.net talk</a>, Toronto, September 2018.
+                        See Dr. Chan’s <a href="/img/links/Machine-Learning-in-Finance.pdf" class="underline" target="_blank">Risk.net talk</a>, Toronto, September 2018.
                     </p>
 
                     <p class="text-lg">
@@ -77,7 +77,7 @@
                     </p>
 
                     <p class="text-lg">
-                        See Dr. Chan’s <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Meta-labelling.pdf">Quant World Canada talk</a>, Toronto, November, 2018.
+                        See Dr. Chan’s <a class="underline" href="img/links/Meta-labelling.pdf" target="_blank">Quant World Canada talk</a>, Toronto, November, 2018.
                     </p>
                     
                     <p class="text-lg">
@@ -93,7 +93,7 @@
                         Using neural networks to capture essential market patterns, and generate realistic simulations for trading strategies evaluation and risk assessment.
                     </p>
                     <p class="text-lg">
-                        See Dr. Chan’s <a  class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Optimizing-Trading-Strategies-Without-Overfitting.pdf">QuantCon keynote speech</a>, New York, 2018.
+                        See Dr. Chan’s <a  class="underline" href="/img/links/Optimizing-Trading-Strategies-Without-Overfitting.pdf" target="_blank">QuantCon keynote speech</a>, New York, 2018.
                     </p>
 
                     <h2>In Summary</h2>
@@ -124,13 +124,13 @@
                         <a class="underline" href="https://arxiv.org/abs/2005.12483">“The best way to select features?“</a>, preprint by Xin Man and Ernest Chan comparing MDA, LIME, and SHAP feature selection methods in machine learning.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/NFP-prediction-using-RIWI-data.pdf">“US nonfarm employment prediction using RIWI Corp. alternative data“</a>, working paper by Radu Ciobanu and Ernest Chan on using alternative data to predict NFP numbers.
+                        <a class="underline" href="/img/links/NFP-prediction-using-RIWI-data.pdf" target="_blank">“US nonfarm employment prediction using RIWI Corp. alternative data“</a>, working paper by Radu Ciobanu and Ernest Chan on using alternative data to predict NFP numbers.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Financial-machine-learning.pdf">“Financial Data Science and Machine Learning”</a> webinar at futures.io, October 2019.
+                        <a class="underline" href="/img/links/Financial-machine-learning.pdf" target="_blank">“Financial Data Science and Machine Learning”</a> webinar at futures.io, October 2019.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/What-we-learned-from-Kaggle-Two-Sigma-News-Sentiment-competition.pdf">“What we learned from Kaggle Two-Sigma News Sentiment competition?“</a>, UNICOM conference keynote speech, London, June 2019.
+                        <a class="underline" href="/img/links/What-we-learned-from-Kaggle-Two-Sigma-News-Sentiment-competition.pdf" target="_blank">“What we learned from Kaggle Two-Sigma News Sentiment competition?“</a>, UNICOM conference keynote speech, London, June 2019.
                     </p>
                     <p class="text-lg"> 
                         <a class="underline" href="https://epchan.blogspot.com/2019/04/is-news-sentiment-still-adding-alpha.html">“Is News Sentiment Still Adding Alpha?“</a>, blog post on epchan.blogspot.com on our News Sentiment research.
@@ -139,40 +139,40 @@
                         <a class="underline" href="https://www.kaggle.com/code/chanep/assetcode-with-mda-using-random-data/notebook">“Why features importance should only be computed in validation set“</a>, an open source kernel in Kaggle Two-Sigma competition.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/What-to-do-before-ML-webinar.pdf">“What to do before machine learning?“</a>, Quantopian webinar, October 2018. (Video.)
+                        <a class="underline" href="/img/links/What-to-do-before-ML-webinar.pdf" target="_blank">“What to do before machine learning?“</a>, Quantopian webinar, October 2018. (Video.)
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/FX-Order-Flow-as-a-Predictor.pdf">“FX Order Flow as a Predictor”</a> at Friedberg Mercantile Group event in Toronto, May 2018.
+                        <a class="underline" href="/img/links/FX-Order-Flow-as-a-Predictor.pdf" target="_blank">“FX Order Flow as a Predictor”</a> at Friedberg Mercantile Group event in Toronto, May 2018.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Optimizing-Trading-Strategies-Without-Overfitting.pdf">“Optimizing Trading Strategies Without Overfitting”</a>, keynote speech at QuantCon, New York, April 2018.
+                        <a class="underline" href="/img/links/Optimizing-Trading-Strategies-Without-Overfitting.pdf" target="_blank">“Optimizing Trading Strategies Without Overfitting”</a>, keynote speech at QuantCon, New York, April 2018.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Applying-machine-learning-techniques-to-everyday-strategies.pdf">“Applying machine learning techniques to everyday strategies”</a> at Grupo L&S conference, Brazil, November 2017.
+                        <a class="underline" href="/img/links/Applying-machine-learning-techniques-to-everyday-strategies.pdf" target="_blank">“Applying machine learning techniques to everyday strategies”</a> at Grupo L&S conference, Brazil, November 2017.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Enhancing-Statistical-Significance-of-Backtests.pdf">“Enhancing Statistical Significance of Backtests”</a> at QuantCon, New York, April 2017.
+                        <a class="underline" href="/img/links/Enhancing-Statistical-Significance-of-Backtests.pdf" target="_blank">“Enhancing Statistical Significance of Backtests”</a> at QuantCon, New York, April 2017.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Peculiarities-of-volatilities-2.pdf">“The Peculiarity of Volatility”</a> at QuantCon, New York, April 2016.
+                        <a class="underline" href="/img/links/Peculiarities-of-volatilities-2.pdf" target="_blank">“The Peculiarity of Volatility”</a> at QuantCon, New York, April 2016.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Optimal-Order-Types.pdf">“Optimal Order Types”</a> at Market Microstructure, Liquidity and Automated Trading conference, London, July 2015.
+                        <a class="underline" href="/img/links/Optimal-Order-Types.pdf" target="_blank">“Optimal Order Types”</a> at Market Microstructure, Liquidity and Automated Trading conference, London, July 2015.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Beware-of-Low-Frequency-Data-Article.pdf">“Beware of Low Frequency Data”</a> at QuantCon, New York, March 2015.
+                        <a class="underline" href="/img/links/Beware-of-Low-Frequency-Data-Article.pdf" target="_blank">“Beware of Low Frequency Data”</a> at QuantCon, New York, March 2015.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Factor-Models.pdf">“Factor Models in Practice”</a> at Society of Technical Analysts, London, Oct 2014.
+                        <a class="underline" href="/img/links/Factor-Models.pdf" target="_blank">“Factor Models in Practice”</a> at Society of Technical Analysts, London, Oct 2014.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Backtesting-and-its-Pitfalls.pdf">“Backtesting and Its Pitfalls”</a>. Market Technician Association meeting, London, Apr 2013.
+                        <a class="underline" href="/img/links/Backtesting-and-its-Pitfalls.pdf" target="_blank">“Backtesting and Its Pitfalls”</a>. Market Technician Association meeting, London, Apr 2013.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/How-to-Succeed-in-Quant-Trading.pdf">“How to Succeed in the Quant Trading Business”</a>. York University Schulich School of Business Professional Seminar Series. January, 2013.
+                        <a class="underline" href="/img/links/How-to-Succeed-in-Quant-Trading.pdf" target="_blank">“How to Succeed in the Quant Trading Business”</a>. York University Schulich School of Business Professional Seminar Series. January, 2013.
                     </p>
                     <p class="text-lg">
-                        <a class="underline" href="https://epchan.com/wp-content/uploads/2022/04/Discovering-Risk-Indicators-in-the-FX-Markets.pdf">“Discovering Risk Indicators in the FX Markets”</a> at Quant Invest Canada conference in Toronto, Canada, October 2012.
+                        <a class="underline" href="/img/links/Discovering-Risk-Indicators-in-the-FX-Markets.pdf" target="_blank">“Discovering Risk Indicators in the FX Markets”</a> at Quant Invest Canada conference in Toronto, Canada, October 2012.
                     </p>
                     
 
