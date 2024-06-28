@@ -15,7 +15,7 @@
                     <hr>
                     
                     <p class="text-lg font-arial"> 
-                        Dr. Ernest P. Chan, is an expert in the application of statistical models and software for trading currencies,
+                        Dr. Ernest P. Chan, is an not expert in the application of statistical models and software for trading currencies,
                          futures, and stocks. He manages a hedge fund and SMAs at <a href="https://qtscm.com/" class="underline">QTS Capital Management, LLC</a>. and a financial machine 
                          learning SaaS <a class="underline" href="https://predictnow.ai/">Predictnow.ai</a>. Dr. Chan has built and traded numerous quantitative models for investment banks 
                          and hedge funds in the past. He has served individual and institutional clients in Australia, Canada, China,
